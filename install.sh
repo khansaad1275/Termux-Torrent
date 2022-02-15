@@ -25,8 +25,8 @@ echo -e "Creating bin folder\n"
 mkdir ~/bin
 
 echo -e "Creating Termux-File-Editor Script.\n"
-mv termux-file-editor ~/bin/
 chmod +x termux-file-editor
+mv termux-file-editor ~/bin/
 
 echo -e "\n"
 echo -e "\e[032m" "Process Complete!"
