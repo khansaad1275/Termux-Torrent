@@ -1,0 +1,18 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+
+#/data/data/com.termux/files/home/storage/shared/Torrent_Downloads
+
+echo "Helo Torrent download will start now"
+echo "To Quit press ctrl + C"
+cd downloads
+
+newf=$(ls -Art | tail -n 1)
+
+
+echo " Downloading : ${newf}"
+
+aria2c -d /data/data/com.termux/files/home/storage/shared/Torrent_Downloads "/data/data/com.termux/files/home/downloads/${newf}"
+rm -rf /data/data/com.termux/files/home/downloads/*
+
+read b
