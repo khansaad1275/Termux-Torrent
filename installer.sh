@@ -1,10 +1,8 @@
 #!/data/data/com.termux/files/usr/bin/bash
-
 # Project name : Termux-Torrent
 # Coded by: Khansaad1275 (You dont become a coder by just changing the credits)
 # Github: https://github.com/khansaad1275/Termux-Torrent
 # Date : 15/2/2022
-
 
 echo -e "\e[035m"  "Updating default packages\n"
 pkg update && pkg upgrade -y
