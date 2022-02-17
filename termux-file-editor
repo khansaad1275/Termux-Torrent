@@ -1,18 +1,25 @@
-#!/data/data/com.termux/files/usr/bin/bash
 
+echo -e "\e[032m" "████████╗ ██████╗ ██████╗ ██████╗ ███████╗███╗   ██╗████████╗"
+echo -e "\e[032m" "╚══██╔══╝██╔═══██╗██╔══██╗██╔══██╗██╔════╝████╗  ██║╚══██╔══╝"
+echo -e "\e[032m" "   ██║   ██║   ██║██████╔╝██████╔╝█████╗  ██╔██╗ ██║   ██║   "
+echo -e "\e[032m" "   ██║   ██║   ██║██╔══██╗██╔══██╗██╔══╝  ██║╚██╗██║   ██║   "
+echo -e "\e[032m" "   ██║   ╚██████╔╝██║  ██║██║  ██║███████╗██║ ╚████║   ██║   "
+echo -e "\e[032m" "   ╚═╝    ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═══╝   ╚═╝   "
 
-#/data/data/com.termux/files/home/storage/shared/Torrent_Downloads
-
-echo "Helo Torrent download will start now"
-echo "To Quit press ctrl + C"
-cd downloads
-
+# getting the latest file .torrent file
 newf=$(ls -Art | tail -n 1)
 
-
+echo " "
 echo " Downloading : ${newf}"
 
+echo "To Quit press ctrl + C Then Enter."
+
+
+cd downloads
+
 aria2c -d /data/data/com.termux/files/home/storage/shared/Torrent_Downloads "/data/data/com.termux/files/home/downloads/${newf}"
+
 rm -rf /data/data/com.termux/files/home/downloads/*
 
-read b
+echo -e "\e[032m" "Press Enter to Quit!"
+read bxx                                                             
