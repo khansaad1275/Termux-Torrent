@@ -22,7 +22,7 @@ newf=$(ls -Art | tail -n 1)
 
 # file info
 echo " "
-echo "> Downloading : ${newf}"
+echo -e '\033[1m Downloading : ${newf}\033[0m'
 echo " "
 echo "To Quit press ctrl + C Then Enter."
 
@@ -33,7 +33,7 @@ rm -rf /data/data/com.termux/files/home/downloads/*
 
 # Quit Menu
 echo " "
-echo -e "\e[032m" "Press Enter to Quit!"
+echo -e '\033[1mPress Enter to Quit!\033[0m'
 echo " "
 echo -e "\e[031m" "1. Delete all the data in Torrent-Downloads folder."
 read bxx                                                             
