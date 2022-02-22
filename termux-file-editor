@@ -33,7 +33,7 @@ rm -rf /data/data/com.termux/files/home/downloads/*
 
 # Quit Menu
 echo " "
-echo -e '\033[1mPress Enter to Quit!\033[0m'
+echo -e '\033[1m[Enter]Press Enter to Quit!"\033[0m'
 echo " "
 echo -e "\e[031m" "1. Delete all the data in Torrent-Downloads folder."
 read bxx                                                             
