@@ -5,13 +5,13 @@
 # Date : 15/2/2022
 
 clear
-echo -e "\e[031m" "████████╗ ██████╗ ██████╗ ██████╗ ███████╗███╗   ██╗████████╗"
-echo -e "\e[031m" "╚══██╔══╝██╔═══██╗██╔══██╗██╔══██╗██╔════╝████╗  ██║╚══██╔══╝"
-echo -e "\e[031m" "   ██║   ██║   ██║██████╔╝██████╔╝█████╗  ██╔██╗ ██║   ██║   "
-echo -e "\e[031m" "   ██║   ██║   ██║██╔══██╗██╔══██╗██╔══╝  ██║╚██╗██║   ██║   "
-echo -e "\e[031m" "   ██║   ╚██████╔╝██║  ██║██║  ██║███████╗██║ ╚████║   ██║   "
-echo -e "\e[031m" "   ╚═╝    ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═══╝   ╚═╝   "
-echo -e "\e[031m" "--------------------[LearnTermux.tech]-----------------------"
+echo -e "\e[032m" "████████╗ ██████╗ ██████╗ ██████╗ ███████╗███╗   ██╗████████╗"
+echo -e "\e[032m" "╚══██╔══╝██╔═══██╗██╔══██╗██╔══██╗██╔════╝████╗  ██║╚══██╔══╝"
+echo -e "\e[032m" "   ██║   ██║   ██║██████╔╝██████╔╝█████╗  ██╔██╗ ██║   ██║   "
+echo -e "\e[032m" "   ██║   ██║   ██║██╔══██╗██╔══██╗██╔══╝  ██║╚██╗██║   ██║   "
+echo -e "\e[032m" "   ██║   ╚██████╔╝██║  ██║██║  ██║███████╗██║ ╚████║   ██║   "
+echo -e "\e[032m" "   ╚═╝    ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═══╝   ╚═╝   "
+echo -e "\e[032m" "--------------------[LearnTermux.tech]-----------------------"
 
 # getting the latest file .torrent file
 cd downloads
@@ -19,7 +19,7 @@ newf=$(ls -Art | tail -n 1)
 
 # file info
 echo " "
-echo " Downloading : ${newf}"
+echo "> Downloading : ${newf}"
 echo " "
 echo "To Quit press ctrl + C Then Enter."
 
@@ -28,8 +28,25 @@ aria2c -d /data/data/com.termux/files/home/storage/shared/Torrent_Downloads "/da
 
 rm -rf /data/data/com.termux/files/home/downloads/*
 
+# Quit Menu
 echo -e "\e[032m" "Press Enter to Quit!"
+echo -e "\e[031m" "1. Delete all the data in Torrent_Downloads folder."
 read bxx                                                             
 
-# case $bxx in
-# 	1) echo "Deleting all the data downloaded in Torrent_Downloads";;
+case $bxx in
+
+	1) echo -e "\e[031m" "Are you sure you want to Delete all the data in Torrent_Downloads folder(Y/n)"
+	
+	read xconf
+
+	if [ "$xconf" != "${xconf#[Yy]}" ] ; then
+		echo " Deleting all the data in the Torrent_Downloads folder..."
+		cd /data/data/com.termux/files/home/storage/shared/Torrent_Downloads
+		rm - rf *
+		cd
+	else
+		echo "Quiting the Menu.."
+
+	fi
+	;;
+esac
