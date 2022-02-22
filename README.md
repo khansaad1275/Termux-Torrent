@@ -1,6 +1,8 @@
 # Termux-Torrent
 A simple bash tool that will allow you to **Download anything using torrent with Termux.**
 
+The script will allow you to download torrent data without installing any UTorrent or bit torrent application in you phone. This is a light weight alternative to the torrent applications. It Saves your RAM, does not run in background and works perfectly.
+
 ### Me:
 Author👨‍💻: https://github.com/khansaad1275 <br>
 
