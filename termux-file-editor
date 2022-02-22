@@ -5,6 +5,9 @@
 # Date : 15/2/2022
 
 clear
+echo " "
+echo " "
+echo " "
 echo -e "\e[032m" "████████╗ ██████╗ ██████╗ ██████╗ ███████╗███╗   ██╗████████╗"
 echo -e "\e[032m" "╚══██╔══╝██╔═══██╗██╔══██╗██╔══██╗██╔════╝████╗  ██║╚══██╔══╝"
 echo -e "\e[032m" "   ██║   ██║   ██║██████╔╝██████╔╝█████╗  ██╔██╗ ██║   ██║   "
@@ -30,17 +33,18 @@ rm -rf /data/data/com.termux/files/home/downloads/*
 
 # Quit Menu
 echo -e "\e[032m" "Press Enter to Quit!"
+echo " "
 echo -e "\e[031m" "1. Delete all the data in Torrent-Downloads folder."
 read bxx                                                             
 
 case $bxx in
 
-	1) echo -e "\e[031m" "Are you sure you want to Delete all the data in Torrent_Downloads folder(Y/n)"
+	1) echo -e "\e[031m" "Are you sure you want to Delete all the data in Torrent-Downloads folder(Y/n)"
 	
 	read xconf
 
 	if [ "$xconf" != "${xconf#[Yy]}" ] ; then
-		echo " Deleting all the data in the Torrent_Downloads folder..."
+		echo " Deleting all the data in the Torrent-Downloads folder..."
 		cd /data/data/com.termux/files/home/storage/shared/Torrent-Downloads
 		rm - rf *
 		cd
