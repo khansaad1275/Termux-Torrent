@@ -19,10 +19,10 @@ https://www.learntermux.tech/2020/04/Termux-Youtube-Video-Downloader.html
 <br>
 
 ### Features:
-- See The Downloading Process.
+- Works with any website as long as you can download .torrent file form it.
 - Download any Video in Just 2 Click.
-- Select the Quality Of your Video.
-- Downlaod Mp3 Version of the Video.
+- No ads and no purchase.
+- Fast download.
 
 <br>
 <br>
