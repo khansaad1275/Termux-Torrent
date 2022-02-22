@@ -22,7 +22,7 @@ newf=$(ls -Art | tail -n 1)
 
 # file info
 echo " "
-echo -e '\033[1m Downloading : ${newf}\033[0m'
+echo -e "\e[032m" "Downloading : ${newf}"
 echo " "
 echo "To Quit press ctrl + C Then Enter."
 
