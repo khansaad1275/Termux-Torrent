@@ -11,15 +11,16 @@ echo -e "\e[031m" "   ██║   ██║   ██║██████╔╝�
 echo -e "\e[031m" "   ██║   ██║   ██║██╔══██╗██╔══██╗██╔══╝  ██║╚██╗██║   ██║   "
 echo -e "\e[031m" "   ██║   ╚██████╔╝██║  ██║██║  ██║███████╗██║ ╚████║   ██║   "
 echo -e "\e[031m" "   ╚═╝    ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═══╝   ╚═╝   "
+echo -e "\e[031m" "--------------------[LearnTermux.tech]-----------------------"
 
 # getting the latest file .torrent file
-
 cd downloads
 newf=$(ls -Art | tail -n 1)
 
+# file info
 echo " "
 echo " Downloading : ${newf}"
-
+echo " "
 echo "To Quit press ctrl + C Then Enter."
 
 
@@ -30,3 +31,5 @@ rm -rf /data/data/com.termux/files/home/downloads/*
 echo -e "\e[032m" "Press Enter to Quit!"
 read bxx                                                             
 
+# case $bxx in
+# 	1) echo "Deleting all the data downloaded in Torrent_Downloads";;
