@@ -15,7 +15,7 @@ echo -e "\e[032m" "   ██║   ██║   ██║██╔══██╗�
 echo -e "\e[032m" "   ██║   ╚██████╔╝██║  ██║██║  ██║███████╗██║ ╚████║   ██║   "
 echo -e "\e[032m" "   ╚═╝    ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═══╝   ╚═╝   "
 echo -e "\e[032m" "--------------------[LearnTermux.tech]-----------------------"
-
+echo " "
 # getting the latest file .torrent file
 cd downloads
 newf=$(ls -Art | tail -n 1)
@@ -32,6 +32,7 @@ aria2c -d /data/data/com.termux/files/home/storage/shared/Torrent-Downloads "/da
 rm -rf /data/data/com.termux/files/home/downloads/*
 
 # Quit Menu
+echo " "
 echo -e "\e[032m" "Press Enter to Quit!"
 echo " "
 echo -e "\e[031m" "1. Delete all the data in Torrent-Downloads folder."
