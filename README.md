@@ -13,6 +13,18 @@ Instagram : https://www.instagram.com/skhan_official/ <br>
 <br>
 
 ### Installation & Usage:
+
+`pkg update`
+`pkg install git`
+`git clone https://github.com/khansaad1275/Termux-Torrent`
+`cd Termux-Torrent`
+
+
+
+<br>
+<br>
+
+### Complete Guide with one line installation:
 Read This post for installation and usage, I have explained everything using screenshots.
 
 I am gonna post the link here
