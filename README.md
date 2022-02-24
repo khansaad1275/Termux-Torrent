@@ -38,7 +38,7 @@ I am gonna post the link here
 <br>
 
 ### Features:
-- Works with any website as long as you can download .torrent file form it.
+- Works with any website as long as you can download .torrent file from it.
 - Download any Video in Just 2 Click.
 - No ads and no purchase.
 - Fast download.
