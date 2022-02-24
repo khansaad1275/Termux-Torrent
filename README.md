@@ -14,10 +14,11 @@ Instagram : https://www.instagram.com/skhan_official/ <br>
 
 ### Installation & Usage:
 
-`pkg update`
-`pkg install git`
-`git clone https://github.com/khansaad1275/Termux-Torrent`
-`cd Termux-Torrent`
+`pkg update` <br>
+`pkg install git` <br>
+`git clone https://github.com/khansaad1275/Termux-Torrent` <br>
+`cd Termux-Torrent` <br>
+`bash install.sh` <br>
 
 
 
