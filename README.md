@@ -15,7 +15,7 @@ Instagram : https://www.instagram.com/skhan_official/ <br>
 ### Installation & Usage:
 Read This post for installation and usage, I have explained everything using screenshots.
 
-https://www.learntermux.tech/2020/04/Termux-Youtube-Video-Downloader.html
+I am gonna post the link here
 
 <br>
 <br>
