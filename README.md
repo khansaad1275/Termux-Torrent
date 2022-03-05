@@ -12,7 +12,7 @@ Instagram : https://www.instagram.com/skhan_official/ <br>
 <br>
 <br>
 
-### Installation :
+### Installation ⬇:
 
 `pkg update` <br>
 
@@ -29,7 +29,7 @@ Instagram : https://www.instagram.com/skhan_official/ <br>
 <br>
 <br>
 
-### Use :
+### Use 🏃‍♂️:
 
 1. Download any torrent file from web.<br>
 2. Just open the .torrent file.  <br>
@@ -47,7 +47,7 @@ Instagram : https://www.instagram.com/skhan_official/ <br>
 <br>
 <br>
 
-### Complete Guide with one line installation:
+### Complete Guide with one line installation 🔗:
 Read This post for installation and usage, I have explained everything using screenshots.
 
 I am gonna post the link here
@@ -64,5 +64,5 @@ I am gonna post the link here
 <br>
 <br>
 
-### TODO:
+### TODO 📝:
 - write a post on this tool and add the link.
