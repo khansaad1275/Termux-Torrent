@@ -36,8 +36,11 @@ Instagram : https://www.instagram.com/skhan_official/ <br>
 3. Click on Edit. <br>
 4. The file will start downloading.
 
+<br>
 
-![Termux-Torrent](https://user-images.githubusercontent.com/32749921/156878911-4a643059-825d-459a-af97-e28ec56ba425.gif)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/32749921/156878911-4a643059-825d-459a-af97-e28ec56ba425.gif" alt="animated" />
+</p>
 
 
 
