@@ -37,7 +37,8 @@ Instagram : https://www.instagram.com/skhan_official/ <br>
 4. The file will start downloading.
 
 
-https://user-images.githubusercontent.com/32749921/156878561-d6d7d0a1-c3fc-413c-8773-7447f7fd6b00.mp4
+![Termux-Torrent](https://user-images.githubusercontent.com/32749921/156878911-4a643059-825d-459a-af97-e28ec56ba425.gif)
+
 
 
 <br>
