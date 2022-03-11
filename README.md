@@ -66,3 +66,4 @@ I am gonna post the link here
 
 ### TODO 📝:
 - write a post on this tool and add the link.
+- Support for magnet links
