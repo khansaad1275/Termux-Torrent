@@ -27,7 +27,7 @@ echo " "
 echo "To Quit press ctrl + C Then Enter."
 
 
-aria2c -d /data/data/com.termux/files/home/storage/shared/Torrent-Downloads "/data/data/com.termux/files/home/downloads/${newf}"
+aria2c --seed-time=0 -d /data/data/com.termux/files/home/storage/shared/Torrent-Downloads "/data/data/com.termux/files/home/downloads/${newf}"
 
 rm -rf /data/data/com.termux/files/home/downloads/*
 
