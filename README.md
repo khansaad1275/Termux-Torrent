@@ -50,7 +50,7 @@ Instagram : https://www.instagram.com/skhan_official/ <br>
 ### Complete Guide with one line installation 🔗:
 Read This post for installation and usage, I have explained everything using screenshots.
 
-I am gonna post the link here
+https://www.learntermux.tech/2022/03/Termux-Torrent.html
 
 <br>
 <br>
