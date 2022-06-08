@@ -65,5 +65,4 @@ https://www.learntermux.tech/2022/03/Termux-Torrent.html
 <br>
 
 ### TODO 📝:
-- write a post on this tool and add the link.
 - Support for magnet links
